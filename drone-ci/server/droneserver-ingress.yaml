@@ -9,7 +9,7 @@ metadata:
     traefik.ingress.kubernetes.io/redirect-permanent: "true"
 spec:
   rules:
-  - host: drone.marceldempers.dev
+  - host: drone.pkk.dev
     http:
       paths:
       - backend:
